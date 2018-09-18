@@ -1,0 +1,24 @@
+
+{
+    "jblogappApp": {
+        "jBlog" : {
+            "home": {
+                "title": "J Blogs",
+                "createLabel": "Create a new J Blog",
+                "createOrEditLabel": "Create or edit a J Blog"
+            },
+            "created": "A new J Blog is created with identifier {{ param }}",
+            "updated": "A J Blog is updated with identifier {{ param }}",
+            "deleted": "A J Blog is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete J Blog {{ id }}?"
+            },
+            "detail": {
+                "title": "J Blog"
+            },
+            "title": "Title",
+            "body": "Body",
+            "author": "Author"
+        }
+    }
+}

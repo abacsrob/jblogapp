@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="jBlog">
+            <h2><span jhiTranslate="jblogappApp.jBlog.detail.title">J Blog</span> {{jBlog.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="jblogappApp.jBlog.title">Title</span></dt>
+                <dd>
+                    <span>{{jBlog.title}}</span>
+                </dd>
+                <dt><span jhiTranslate="jblogappApp.jBlog.body">Body</span></dt>
+                <dd>
+                    <span>{{jBlog.body}}</span>
+                </dd>
+                <dt><span jhiTranslate="jblogappApp.jBlog.author">Author</span></dt>
+                <dd>
+                    <span>{{jBlog.author}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/j-blog', jBlog.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

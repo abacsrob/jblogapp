@@ -1,0 +1,24 @@
+
+{
+    "jblogappApp": {
+        "blog" : {
+            "home": {
+                "title": "Blogs",
+                "createLabel": "Egy új Blog létrehozása",
+                "createOrEditLabel": "Hozzon létre, vagy módosítson Blogt"
+            },
+            "created": "Egy új Blog lett létrehozva {{ param }} azonosítóval",
+            "updated": "A Blog módosítva lett {{ param }} azonosítóval",
+            "deleted": "A Blog törölve lett {{ param }} azonosítóval",
+            "delete": {
+                "question": "Biztos benne, hogy törölni szeretné az Blogt {{ id }} azonosítóval?"
+            },
+            "detail": {
+                "title": "Blog"
+            },
+            "name": "Name",
+            "handle": "Handle",
+            "user": "User"
+        }
+    }
+}
